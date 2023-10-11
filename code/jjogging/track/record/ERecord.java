@@ -7,6 +7,9 @@ public class ERecord {
             if (val < 0) {
                 val *= -1;
             }
+
+            System.out.println(val);
+            System.out.println(this.val());
         }
     }
 
